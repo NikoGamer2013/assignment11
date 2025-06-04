@@ -1,0 +1,12 @@
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cancino_nicolas_coding_assignment11
+    ports:
+      - '7775:3000'
+    # volumes:
+    #   - .:/app
+    #   - /app/node_modules
